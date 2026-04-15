@@ -3,5 +3,4 @@ pandas
 plotly
 wordcloud
 matplotlib
-pymorphy2
 pymorphy3
