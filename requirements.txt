@@ -4,4 +4,4 @@ plotly
 wordcloud
 matplotlib
 pymorphy3
-python==3.9
+
