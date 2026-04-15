@@ -57,7 +57,7 @@ def train():
     model.fit(X, y)
  
     with open('my_model.pkl', 'wb') as f:
-        pickle.dump((vectorizer, model), f)
+        pickle.dump((vec, model), f)
         
     print("✅ ML-модель успешно обучена на размеченном датасете!")
     print("✅ Файл my_model.pkl сохранен. Теперь приложение использует ИИ.")
